@@ -4,21 +4,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+.block1 {
+    width: 100%;
+   }
+
+.block2 {
+    width: 100%;
+   }
+
+.blockPic {
+    width: 100%;
+    height: 50px;
+    border:1px solid;
+    margin-left:auto;
+    margin-right: auto;
+    border-color:white;
+    display: flex;
+    justify-content: center;
+    
+    vertical-align: middle;
+        }
+
+.blockText {
+    width: 100%;
+    height: 50px;
+    border:1px solid;
+    border-color: white;
+    vertical-align: middle;
+    }        
+
+.g-block-1 {
+    width: 40%;
+    height:100%;
+    float: left;
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+
+.g-block-2 {
+    width: 10%;
+    height:100%;
+    display:inline-block;
+    padding:0;
+    
+}
+.g-block-3 {
+    width: 50%;
+    height:100%;
+    float: right;
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+.center {
+  padding: 0;
+  }
+
+    </style>
 </head>
 <body>
-    <label style="text-align: center; width: 300px;display: inline-block">
-        Hello HTML !!!
-    </label>
-     <label style="text-align: center;width: 300px;display: inline-block">
-        Hello HTML !!!
-     </label>
-     <a href="http://www.google.com">
-        <img src="google.png"   alt=""
-        style="width: 100px;">
-        <label>
-            GOOGLE
-        </label>
-     </a>
-    
+    <div>
+        <div class="g-block-1">
+            <div class="block1">
+             </div> 
+            <div class="block2">
+             </div>  
+        </div>   
+        <div class="g-block-2">
+            <div class="blockPic">
+                    <a href="https://gb.ru/">
+                        <img src="picture/GeekBrains.jfif"   alt=""
+                    style="width: 50px;">
+                     </a>
+            </div> 
+            <div class="blockPic">
+                <a href="https://javarush.ru/">
+                    <img src="picture/javarush.png"   alt=""
+                style="width: 50px;">
+                </a>
+            </div>
+            <div class="blockPic">
+                <a href="https://www.udemy.com/ru/">
+                  <img src="picture/udemy.png"   alt=""
+                style="width: 50px;">
+                 </a>
+            </div>
+            <div class="blockPic">
+                <a href="https://www.w3.org/">
+                    <img src="picture/W3.png"   alt=""
+                style="width: 50px;">
+                </a>
+            </div>
+            <div class="blockPic">
+                <a href="https://www.w3schools.com/">
+                    <img src="picture/W3School.png"   alt=""
+                style="width: 50px;">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="g-block-3">
+            <div class="blockText">
+                    <a href="https://gb.ru/">
+                        <div class="center">
+                           <p>GeekBrains</p> 
+                        </div>
+                        <img src=""alt="">
+                         </a>
+            </div> 
+            <div class="blockText">
+                <a href="https://javarush.ru/">
+                    <div class="center">
+                        <p>Javarush</p> 
+                     </div>
+                     <img src=""alt="">
+                      </a>
+            </div>
+            <div class="blockText">
+                <a href="https://www.udemy.com/ru/">
+                    <div class="center">
+                        <p>Udemy</p> 
+                     </div>
+                     <img src=""alt="">
+                      </a>
+            </div>
+            <div class="blockText">
+                <a href="https://www.w3.org/">
+                    <div class="center">
+                        <p>W3</p> 
+                     </div>
+                     <img src=""alt="">
+                      </a>
+            </div>
+            <div class="blockText">
+                <a href="https://www.w3schools.com/">
+                    <div class="center">
+                        <p>W3School</p> 
+                     </div>
+                     <img src=""alt="">
+                      </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
